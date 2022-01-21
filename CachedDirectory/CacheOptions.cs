@@ -1,4 +1,6 @@
-﻿public class CacheOptions
+﻿using System;
+
+public class CacheOptions
 {
     public readonly bool Enabled;
     public readonly TimeSpan Expiration;

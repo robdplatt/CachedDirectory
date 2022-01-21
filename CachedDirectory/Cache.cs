@@ -1,4 +1,7 @@
-﻿internal class Cache
+﻿using System;
+using System.IO;
+
+internal class Cache
 {
     public readonly string Path;
     public readonly SearchOption SearchOption;

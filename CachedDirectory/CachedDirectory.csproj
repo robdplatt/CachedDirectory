@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<Authors>Rob Platt</Authors>
+	<Version>1.0</Version>
+	<Description>Add caching to speed up Directory.GetFiles() and Directory.EnumerateFiles() when doing frequent/repeated operations</Description>
+  </PropertyGroup>
+
+</Project>

@@ -1,12 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-	<Authors>Rob Platt</Authors>
-	<Version>1.0</Version>
-	<Description>Add caching to speed up Directory.GetFiles() and Directory.EnumerateFiles() when doing frequent/repeated operations</Description>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net5.0;net6.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Authors>Rob Platt</Authors>
+		<Version>1.0</Version>
+		<Description>Add caching to speed up Directory.GetFiles() and Directory.EnumerateFiles() when doing frequent/repeated operations</Description>
+		<Copyright>Copyright © Rob Platt 2022</Copyright>
+		<PackageProjectUrl>https://github.com/robdplatt/CachedDirectory</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/robdplatt/CachedDirectory</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
 
 </Project>

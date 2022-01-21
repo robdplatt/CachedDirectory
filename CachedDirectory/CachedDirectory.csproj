@@ -6,7 +6,7 @@
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<Authors>Rob Platt</Authors>
-		<Version>1.0</Version>
+		<Version>1.0.1</Version>
 		<Description>Add caching to speed up Directory.GetFiles() and Directory.EnumerateFiles() when doing frequent/repeated operations</Description>
 		<Copyright>Copyright © Rob Platt 2022</Copyright>
 		<PackageProjectUrl>https://github.com/robdplatt/CachedDirectory</PackageProjectUrl>
